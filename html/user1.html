@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Gustavo Bulacia, Hugo Caro, Yamile Cassen, Pablo Ramallo">
+    <meta name="keywords" content="Peliculas, Series, a la carta, alquiler">
+    <meta name="description" content="Pagina Web dedicada al alquiler de peliculas y series.">
+    <meta name="copyright" content="@Copyright todos los derechos reservados">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Cine Club</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
+            <div class="d-flex justify-content-between container-fluid">
+                <a class="navbar-brand" href="../index.html"> <img
+                    src="../images/logo2.png" alt="Logo de pagian web"
+                    width="100">
+                </a>
+                    
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./error404.html">Peliculas</a></li>
+                                <li><a class="dropdown-item" href="./error404.html">Series</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./error404.html">Tendencia</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="../html/sobre_nosotros.html">Quienes Somos</a>
+                        </li>
+
+                        
+                    </ul>
+
+
+                <!-- LOGOUT -->
+                    <div>
+                        <button type="button" class="btn btn-primary"><a href="./favoritos.html" class="a-red">Favs</a></button>
+                        <button type="button" class="btn btn-danger"><a href="../index.html" class="a-red">Salir</a></button>
+
+                    </div>
+            <!-- Fin LOGOUT -->                  
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide ">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://revistayume.com/wp-content/uploads/2023/10/La-Monja-2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>La Monja 2</h5>
+                      <p>Se ambienta en la Francia de los años 50.
+                        Tras el asesinato de un sacerdote, las fuerzas del mal se están extendiendo. La hermana Irene una vez más se encuentra cara a cara con Valak.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://e.rpp-noticias.io/xlarge/2023/09/04/411441_1471084.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-dark">Sound of Freedom</h5>
+                      <p class="text-dark">Narra las hazañas del ex agente del Departamento de Seguridad Nacional, Tim Ballard, en su lucha contra el tráfico de niños</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0DAA53B5A9481293BD6E98C61A4E16CD4EE9D4B7D31D66657517F50526C16A0A/scale?width=1200&aspectRatio=1.78&format=jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Moana</h5>
+                      <p>Una joven aventurera, se embarca en un peligroso viaje, para cumplir con una misión incompleta de sus ancestros. Durante su viaje conocerá a su héroe, un semidiós legendario llamado Maui, y juntos recorrerán el oceáno en un viaje lleno de misterios y aventuras..</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <h2 class="mt-3 mx-3 text-secondary">Series mas vistas</h2>
+        
+        <section>
+            <div class="container-fluid mt-3 mb-3">
+                <div class="row gy-3">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="../images/bb3.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                              <h5 class="card-title">Breacking Bad</h5>
+                              <p class="card-text">Un profesor de química con cáncer terminal se asocia con un exalumno suyo para fabricar y vender metanfetamina a fin de que su familia no pase apuros económicos</p>
+                              <a href="#" class="btn btn-primary mt-auto align-self-end">Ver Ahora</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="../images/bbt.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                              <h5 class="card-title"></h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary mt-auto align-self-end">Ver Ahora</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="../images/bcsaul.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary mt-auto align-self-end">Ver Ahora</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="../images/got.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary mt-auto align-self-end">Ver Ahora</a>
+                            </div>
+                          </div>
+                    </div>
+                                      
+
+
+                </div>
+            </div>
+        </section>
+
+        <h2 class="text-secondary">Peliculas en Tendencia</h2>
+        
+        <section>
+            <div class="container-fluid mt-3 mb-3 ">
+                <div class="row gy-3">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="https://cnnespanol.cnn.com/wp-content/uploads/2021/04/descarga-6.jpeg?quality=100&strip=info" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                              <h5 class="card-title">Godzilla VS Kong</h5>
+                              <p class="card-text">Monarch (Kyle Chandler) se embarca en una misión de alto riesgo y pone rumbo hacia territorios inexplorados para descubrir los orígenes de estos dos titanes, en un último esfuerzo por tratar de salvar a dos bestias que parecen tener las horas contadas sobre la faz de la Tierra.</p>
+                              <a href="#" class="btn btn-primary mt-auto align-self-end">Ver Ahora</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyhmElEHIGOGMwtMCMO5FtHJY8QqQvWtQxgg&usqp=CAU" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                              <h5 class="card-title">Joker</h5>
+                              <p class="card-text"> Arthur Fleck (Joaquin Phoenix) vive con su madre enferma (Frances Conroy) y trabaja como payaso de fiesta a principios de la década de 1980 en Gotham City. Lucha con una enfermedad mental que lo hace estallar en una risa siniestra en momentos extraños.</p>
+                              <a href="#" class="btn btn-primary mt-auto  align-self-end">Ver Ahora</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="./images/bcsaul.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary mt-auto align-self-end">Ver Ahora</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="./images/got.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary mt-auto align-self-end">Ver Ahora</a>
+                            </div>
+                          </div>
+                    </div>
+                                      
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-5 mb-3 w-100">
+      <hr class="mt-3">
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 text-sm-center  text-lg-start ">
+                        <a href="../html/error404.html" class="fa fa-facebook p-2" ></a>
+                        <a href="../html/error404.html" class="fa fa-twitter p-2" ></a>
+                        <a href="../html/error404.html" class="fa fa-instagram p-2" ></a>
+                        <a href="../html/error404.html" class="fa fa-youtube p-2" ></a>
+                        <a href="../html/error404.html" class="fa fa-linkedin p-2" ></a>
+                    </div>
+                    <div class="col-sm-12 text-sm-center   text-lg-end mx-auto text-md-center ">
+                        <p class="text-white">@Copiright Todos los derechos reservados.</p>
+                        <a href="../index.html" class="p-3 text-decoration-none">Inicio</a>
+                        <a href="../html/contacto.html" class="p-3 text-decoration-none">Ayuda</a>
+                        <a href="../html/IniciarSesion.html" class="p-3 text-decoration-none">Cuenta</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+  
+      
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
