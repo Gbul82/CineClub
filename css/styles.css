@@ -106,3 +106,62 @@ footer{
 .botn-custom {
     width: 230px;
 }
+
+.body-sobre-nosotros {
+    background-image: url(../images/body\ sobre\ nosotros\ 2.jpg);
+}
+
+.fondo-404 {
+    background-image: url(../images/pagina404.png);
+}
+
+.fondo-home {
+    width: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.glamour.es/photos/63bd636276b3f00cb18fc1b8/4:3/w_1332,h_999,c_limit/pelisglobos.gif);
+}
+
+.styles {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.btn-inicio {
+background-color: #5e37a8 !important;
+}
+
+.btn-regist {
+    background-color: deeppink !important;
+}
+
+.card-fondo {
+    background-color: rgba(0, 0, 0, .6) ;
+}
+ 
+.fondo-iniciar-sesion {
+    background-image: url(../images/Video\ móvil\ película\ cine\ mudo\ historia\ clásico\ negro\ y\ blanco\ \(Post\ para\ Instagram\).gif);
+}
+
+.boton-volver {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+   /*  background-color: #007bff; */
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fondo-registro {
+    background-image: url(../images/fondo-registro\ nuevo.png);
+}
+
+.footer-b{
+    width: 100%;
+	background: rgba(0, 0, 0, .4);
+}
+
