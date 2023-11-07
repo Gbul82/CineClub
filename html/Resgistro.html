@@ -8,9 +8,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="sweetalert2.min.css">
   <link rel="stylesheet" href="../css/styles.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> -->
+  
 
 </head>
 
@@ -49,20 +50,14 @@
                   </li>
                   <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item ">
-                      <a class="nav-link" href="./contacto.html">Contacto</a>
-                  </li>
-                  <li class="nav-item ">
-                      <a class="nav-link" href="./sobre_nosotros.html">Quienes Somos</a>
-                  </li>
+                  
 
                   
               </ul>
             
               <div>
-                  <button type="button" class="btn btn-secondary btn-inicio"><a href="../html/IniciarSesion.html" class="a-red">Iniciar Sesion</a></button>
-                  <button type="button" class="btn btn-secondary btn-regist"><a href="../html/Resgistro.html" class="a-red">Registrate</a></button>
+                  <button type="button" class="btn btn-secondary btn-inicio"><a href="./IniciarSesion.html" class="a-red">Iniciar Sesion</a></button>
+                 
               </div>
           </div>
       </div>
@@ -87,25 +82,38 @@
         <div>
           <form class="w-register">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label text-white">Usuario</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required
-                maxlength="25" minlength="2" pattern="[a-zA-Z0-9]{2,25}">
-              <div id="emailHelp" class="form-text text-secondary">Escribe tu Usuario.</div>
+              <label for="exampleInputEmail1" class="form-label text-white">Nombre</label>
+              <input type="text" class="form-control" id="inputUsuario" aria-describedby="emailHelp"
+                maxlength="25" minlength="2" pattern="[a-zA-Z0-9]{2,25}" name="usuario">
+              <div id="errorUsuario" class="form-text">
+                <small class="text-danger">Escribe tu Nombre</small>
+              </div>
+              <!-- <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-white">Email</label>
+                <input type="text" class="form-control" id="inputCorreo" aria-describedby="emailHelp"
+                  maxlength="25" minlength="2" pattern="[a-zA-Z0-9]{2,25}" name="usuario">
+                <div id="errorCorreo" class="form-text">
+                  <small class="text-danger">Escribe tu Correo</small>
+                </div> -->
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label text-white">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" maxlength="50" minlength="8"
-                required>
+              <input type="password" class="form-control" id="inputContrasenia" maxlength="50" minlength="8"
+                name="contrasenia">
+                <div id="errorContrasenia" class="form-text">
+                 <small class="text-danger">Escribe tu Contraseña</small>
             </div>
 
-            <div class="mb-3">
+            <div class="mb-3 mt-3">
               <label for="exampleInputPassword1" class="form-label text-white">Repetir Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" maxlength="50" minlength="8"
-                required>
+              <input type="password" class="form-control" id="inputRepetirContrasenia" maxlength="50" minlength="8"
+                name="repetirContrasenia">
+                <div id="errorRepetirContrasenia" class="form-text">
+                 <small class="text-danger">Repite tu Contraseña</small>
             </div>
 
-            <div class="text-center">
-              <button type="submit" class="btn btn-primary">Registrame</button>
+            <div class="text-center mt-3">
+              <button type="submit" class="btn btn-primary" id="botonRegistro">Registrame</button>
             </div>
 
 
@@ -119,38 +127,37 @@
         Google</a></button>
       </div>
       <div>
-        <button type="button" class="btn btn-primary botn-custom"><a href="./Error404.html" class="a-red">Registrame con
+        <button type="button" class="btn btn-primary botn-custom"><a href="./Error404.html" class="a-red" >Registrame con
           FaceBook</a></button>
       </div>
        
       <p class="my-5 text-white">¿Ya tienes una cuenta? <a href="./IniciarSesion.html" class="text-success text-decoration-none">Inicia Sesion</a></p>
     </div>
   </main>
-  <footer class="mt-5  w-100  ">
-      
-    <section class="footer-b">
-      <div class="conteiner-fluid text-lg-start mt-5 " >
-        <img src="./images/logo.1.png" alt="" width="100px" class="mt-2">
-      </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 text-sm-center">
-                    <a href="./html/error404.html" class="fa fa-facebook p-2" ></a>
-                    <a href="./html/error404.html" class="fa fa-twitter p-2" ></a>
-                    <a href="./html/error404.html" class="fa fa-instagram p-2" ></a>
-                    <a href="./html/error404.html" class="fa fa-youtube p-2" ></a>
-                    <a href="./html/error404.html" class="fa fa-linkedin p-2" ></a>
-                </div>
-                <div class="col-sm-12  text-sm-center text-lg-end  ">
-                    
-                    <a href="./index.html" class="p-3 text-decoration-none">Inicio</a>
-                    <a href="./html/contacto.html" class="p-3 text-decoration-none">Ayuda</a>
-                    <a href="./html/IniciarSesion.html" class="p-3 text-decoration-none">Cuenta</a>
-                    <p class="text-white">@Copyright Todos los derechos reservados.</p>
-                </div>
-             </div>
-         </div>
-     </section>
+  <footer class="mt-5 mb-3 w-100">
+    <hr class="mt-3">
+      <section>
+        <div class="conteiner-fluid text-lg-start mt-5" >
+          <img src="../images/logo.1.png" alt="" width="100px">
+        </div>
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-sm-12 text-sm-center w-100">
+                    <a href="../html/error404.html" class="fa fa-facebook p-2" ></a>
+                    <a href="../html/error404.html" class="fa fa-twitter p-2" ></a>
+                    <a href="../html/error404.html" class="fa fa-instagram p-2" ></a>
+                    <a href="../html/error404.html" class="fa fa-youtube p-2" ></a>
+                    <a href="../html/error404.html" class="fa fa-linkedin p-2" ></a>
+                  </div>
+                  <div class="col-sm-12 text-sm-center   text-lg-end mx-auto text-md-center ">
+                      <p class="text-white">@Copiright Todos los derechos reservados.</p>
+                      <a href="./index.html" class="p-3 text-decoration-none">Inicio</a>
+                      <a href="./html/contacto.html" class="p-3 text-decoration-none">Ayuda</a>
+                      <a href="./html/IniciarSesion.html" class="p-3 text-decoration-none">Cuenta</a>
+                  </div>
+              </div>
+          </div>
+      </section>
   </footer>
 
 
@@ -162,6 +169,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/dom.js"></script>
+
 </body>
 
 </body>

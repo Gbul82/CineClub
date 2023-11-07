@@ -104,7 +104,7 @@ footer{
 }
 
 .botn-custom {
-    width: 230px;
+    width: 150px;
 }
 
 .body-sobre-nosotros {
@@ -150,7 +150,6 @@ background-color: #5e37a8 !important;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
-   /*  background-color: #007bff; */
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
@@ -165,3 +164,6 @@ background-color: #5e37a8 !important;
 	background: rgba(0, 0, 0, .4);
 }
 
+.botn-customprod {
+    width: 500px;
+}
